@@ -18,6 +18,7 @@ public class Botteghino {
 		this.postiLiberi--;
 	}
 	
+	
 	public int getPostiLiberi() {
 		return this.postiLiberi;
 	}

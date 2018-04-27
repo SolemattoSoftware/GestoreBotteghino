@@ -12,4 +12,5 @@ public class PrenotazioniException extends Exception {
 	public String toString() {
 		return this.getMessage() + ": posti esauriti!";
 	}
+	
 }
