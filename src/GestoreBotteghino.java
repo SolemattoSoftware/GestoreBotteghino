@@ -1,7 +1,7 @@
 import Botteghini.Botteghino;
 import Eccezioni.PrenotazioniException;
 
-public class GesttoreBotteghino {
+public class GestoreBotteghino {
 
 	public static void main(String[] args) {
 
@@ -13,6 +13,7 @@ public class GesttoreBotteghino {
 				System.out.println("Prenotato posto n° " + index);
 			}
 
+			
 		} catch (PrenotazioniException exc) {
 			System.out.println(exc);
 		} finally {
